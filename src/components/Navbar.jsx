@@ -26,9 +26,8 @@ const Navbar = () => {
             <Link to='account'>
                 <button className='text-white pr-4'>Account</button>
             </Link>
-            <Link to='/logout'>
-                <button className='bg-red-600 px-6 py2 rounded cursor-pointer text-white'>Logout</button>
-            </Link>
+                <button onClick={handleLogout} className='bg-red-600 px-6 py2 rounded cursor-pointer text-white'>Logout</button>
+            
         </div> :
 
         <div>
