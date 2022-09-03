@@ -14,6 +14,7 @@ const Home = () => {
     <Row rowID='5' title='Horror' fetchURL={requests.requestHorror}/>
     </>
   )
+  
 }
 
 export default Home
