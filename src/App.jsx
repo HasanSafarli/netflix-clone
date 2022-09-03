@@ -8,7 +8,6 @@ import Signup from './pages/Signup';
 import Account from './pages/Account';
 import ProtectedRoute from './components/ProtectedRoute';
 
-
 const App = () => (
   <>
   <AuthContextProvider>
@@ -22,6 +21,6 @@ const App = () => (
   </AuthContextProvider>
   </>
 )
-
+ 
 
 export default App;
